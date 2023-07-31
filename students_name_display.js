@@ -12,7 +12,7 @@ marks: {tamil: 58, english: 68, maths: 45, science: 61, social: 78} }];
 let stuavg=0,s3=0;
 let x,s1,s2,a,y,z;
 //Display the name of all students.
-/*displayStudentsName();
+displayStudentsName();
 function displayStudentsName(){
     for(i=0;i<students.length;i++){
         console.log(students[i].name);
@@ -75,7 +75,7 @@ console.log("The total marks of each students: "+s2);
     console.log(a);
     }
        }
-       studentAverage();*/
+       studentAverage();
        //display the details of the student, who is the topper.
        
        
