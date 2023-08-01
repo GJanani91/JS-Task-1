@@ -12,7 +12,7 @@ marks: {tamil: 58, english: 68, maths: 45, science: 61, social: 78} }];
 let stuavg=0,s3=0;
 let x,s1,s2,a,y,z;
 //Display the name of all students.
-displayStudentsName();
+/*displayStudentsName();
 function displayStudentsName(){
     for(i=0;i<students.length;i++){
         console.log(students[i].name);
@@ -75,8 +75,51 @@ console.log("The total marks of each students: "+s2);
     console.log(a);
     }
        }
-       studentAverage();
-       //display the details of the student, who is the topper.
+studentAverage();
+//the student, who has scored 100 in at-least one subject.
+
+function scoreCentum(){
+  for(i=0;i<students.length;i++){
+   if(students[i].marks.tamil==100){
+   console.log("the student scored 100 in at-least one subject: "+ students[i].name);
+   }
+   else if(students[i].marks.english==100){
+   console.log("the student scored 100 in at-least one subject: " +students[i].name);
+   }
+   else if(students[i].marks.maths==100){
+   console.log("the student scored 100 in at-least one subject: " +students[i].name);
+   }
+   else if(students[i].marks.science==100){
+   console.log("the student scored 100 in at-least one subject: " +students[i].name);
+   }
+   else if(students[i].marks.social==100){
+   console.log("the student scored 100 in at-least one subject: "+students[i].name);
+   }
+  }
+}
+scoreCentum();
+//the student, who has failed in any one of the subjects. (passing mark is >=40) 
+function failedSubject(){
+    for(i=0;i<students.length;i++){
+     if(students[i].marks.tamil<=40){
+     console.log("the student failed in any one of the subjects: "+students[i].name);
+     }
+     else if(students[i].marks.english<=40){
+     console.log("the student failed in any one of the subjects: "+ students[i].name);
+     }
+     else if(students[i].marks.maths<=40){
+     console.log("the student failed in any one of the subjects: "+ students[i].name);
+     }
+     else if(students[i].marks.science<=40){
+     console.log("the student failed in any one of the subjects: "+ students[i].name);
+     }
+     else if(students[i].marks.social<=40){
+     console.log("the student failed in any one of the subjects: "+ students[i].name);
+     }
+    }
+  }
+  failedSubject();*/
+      
        
        
 
